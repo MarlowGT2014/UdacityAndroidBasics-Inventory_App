@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Item Name -->
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:text="Name"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <!-- Item Price -->
+        <TextView
+            android:id="@+id/priceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/itemName"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:text="@string/mainPrice"/>
+        <TextView
+            android:id="@+id/itemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemName"
+            android:layout_toRightOf="@+id/priceText"
+            android:paddingBottom="4dp"
+            android:text="@string/samplePrice"/>
+
+        <!-- Item Quantity -->
+        <TextView
+            android:id="@+id/quantityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/priceText"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:text="@string/mainStock"/>
+        <TextView
+            android:id="@+id/itemQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemPrice"
+            android:layout_toRightOf="@+id/quantityText"
+            android:text="@string/sampleStock" />
+
+        <!-- Item Sale Box -->
+        <Button
+            android:id="@+id/itemSaleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_below="@id/itemQuantity"
+            android:focusable="false"
+            android:text="Item Sale" />
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

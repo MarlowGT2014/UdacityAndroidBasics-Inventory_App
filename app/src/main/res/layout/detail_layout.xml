@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:src="@mipmap/ic_launcher_round"/>
+
+    <Button
+        android:id="@+id/chooseImageButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView"
+        android:text="@string/chooseImageButton"
+        android:textSize="10sp"
+        android:onClick="onChooseImageClick"/>
+
+    <EditText
+        android:id="@+id/edit_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:hint="@string/editItemName"
+        android:inputType="textCapCharacters|textAutoCorrect"
+        android:paddingBottom="20dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edit_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edit_item_name"
+        android:hint="@string/editItemPrice"
+        android:inputType="numberDecimal"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/inStockView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/chooseImageButton"
+        android:paddingTop="30dp"
+        android:text="@string/currentStock"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_item_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inStockView"
+        android:hint="@string/editItemQuantity"
+        android:inputType="number"
+        android:paddingTop="16dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/plusQuantityButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/inStockView"
+        android:layout_alignParentRight="true"
+        android:onClick="onPlusClick"
+        android:text="+"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/minusQuantityButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/plusQuantityButton"
+        android:onClick="onMinusClick"
+        android:text="-"/>
+
+    <EditText
+        android:id="@+id/edit_item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/minusQuantityButton"
+        android:hint="@string/editItemDescription"
+        android:paddingTop="30dp"
+        android:textSize="18sp"/>
+
+
+</RelativeLayout>

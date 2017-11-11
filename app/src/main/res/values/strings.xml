@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="newItemWarning">Inventory Currently Empty\nPush the "+" button to add an item.</string>
+    <string name="editItemName">Item Name                                  </string>
+    <string name="editItemPrice">$ Price                                   </string>
+    <string name="currentStock">Current Stock: </string>
+    <string name="editItemQuantity">Quantity</string>
+    <string name="editItemDescription">Enter Item Description...</string>
+
+    <string name="mainPrice">Price: $</string>
+    <string name="samplePrice">20.00</string>
+    <string name="mainStock">"Stock: "</string>
+    <string name="sampleStock">35</string>
+
+    <string name="emailResupply">Sample</string>
+    <string name="chooseImageButton">Choose Image</string>
+</resources>
