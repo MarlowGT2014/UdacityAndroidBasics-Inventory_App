@@ -1,4 +1,4 @@
-# UdacityAndroidBasics-Inventory_App
+# Inventory Application
 Project 10 of 10 in the Udacity Android Basics Nanodegree
 
 This was the final project of the Udacity course and so tried to encompass many of the features learned up to this point. The object of this project was create an inventory application that a store or business owner would use to keep track of bought and sold inventory. The backend of this application relies on  SQLite database to store the information about the items being tracked. For each item, the DB stored the name, selling price, current quantity, a description, and the location of a saved image file on the local device where a picture was located. 
