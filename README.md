@@ -9,10 +9,10 @@ If you were to click on an existing item in the main screen, a difference variat
 
 Screenshots: 
 
-![screenshot_1520820003](https://user-images.githubusercontent.com/14775517/37262376-2c4ef674-2579-11e8-8e3e-68066971fce3.png)
+![screenshot_1520820003](https://user-images.githubusercontent.com/14775517/37262461-990f13ac-2579-11e8-9805-cf23bfe3270b.png)
 
-![screenshot_1520820389](https://user-images.githubusercontent.com/14775517/37262382-33848da0-2579-11e8-9be8-2935fdce8fcd.png)
+![screenshot_1520820389](https://user-images.githubusercontent.com/14775517/37262466-9dccb034-2579-11e8-9c3b-6a08f00b151f.png)
 
-![screenshot_1520820366](https://user-images.githubusercontent.com/14775517/37262385-37676078-2579-11e8-9a28-ee6a1f025320.png)
+![screenshot_1520820366](https://user-images.githubusercontent.com/14775517/37262467-9fbe4e3e-2579-11e8-8f21-4753b444c28e.png)
 
-![screenshot_1520820380](https://user-images.githubusercontent.com/14775517/37262388-3aa40c32-2579-11e8-862b-cb7c831eb31c.png)
+![screenshot_1520820380](https://user-images.githubusercontent.com/14775517/37262468-a155f3f0-2579-11e8-8888-ab321a06cdc4.png)
